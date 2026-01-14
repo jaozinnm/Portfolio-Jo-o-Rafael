@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code_Consult • Sites, Automação e BI</title>
+  <meta name="description" content="Criação de sites, landing pages, automações e BI. Design premium, responsivo e com foco em conversão." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#topo">Pular para o conteúdo</a>
+
+  <!-- TOPBAR -->
+  <div class="topbar" role="banner">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="pill">⚡ Entrega rápida</span>
+        <span class="dot">•</span>
+        <span class="muted">Sites • Landing Pages • Automação • BI</span>
+      </div>
+
+      <a class="topbar-link" target="_blank" rel="noreferrer"
+         href="https://wa.me/558199699995?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20um%20site.">
+        Atendimento no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Início">
+        <span class="brand-mark">CC</span>
+        <span class="brand-text">
+          <strong>Code<span class="brand-underscore">_</span>Consult</strong>
+          <small>Consultoria & Desenvolvimento</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menu">
+        <a href="#sobre" data-nav>Sobre</a>
+        <a href="#servicos" data-nav>Serviços</a>
+        <a href="#projetos" data-nav>Projetos</a>
+        <a href="#processo" data-nav>Processo</a>
+        <a href="#contato" class="nav-cta" data-nav>Orçamento</a>
+      </nav>
+
+      <button class="icon-btn burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
+        ☰
+      </button>
+    </div>
+
+    <!-- MOBILE DRAWER -->
+    <div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="drawer-head">
+        <strong>Menu</strong>
+        <button class="icon-btn" id="closeDrawer" aria-label="Fechar">✕</button>
+      </div>
+
+      <a class="drawer-link" href="#sobre">Sobre</a>
+      <a class="drawer-link" href="#servicos">Serviços</a>
+      <a class="drawer-link" href="#projetos">Projetos</a>
+      <a class="drawer-link" href="#processo">Processo</a>
+      <a class="drawer-link" href="#contato">Contato</a>
+
+      <div class="drawer-cta">
+        <a class="btn btn-primary full" href="#contato">Solicitar orçamento</a>
+      </div>
+    </div>
+
+    <div class="drawer-overlay" id="drawerOverlay" tabindex="-1" aria-hidden="true"></div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="kicker">
+          <span class="k-chip">Design premium</span>
+          <span class="k-chip">Mobile first</span>
+          <span class="k-chip">Foco em conversão</span>
+        </p>
+
+        <h1>
+          Sites e soluções digitais<br/>
+          com <span class="accent">aparência profissional</span> e entrega rápida.
+        </h1>
+
+        <p class="lead">
+          Eu sou <strong>João</strong> — desenvolvo landing pages, sites institucionais e automações,
+          com uma base sólida de UI (design) + organização (código) para você vender mais e trabalhar melhor.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato">Quero um orçamento</a>
+          <a class="btn btn-outline" href="#projetos">Ver projetos</a>
+        </div>
+
+        <div class="trust">
+          <div class="trust-item"><span class="ti-ico">✅</span><span>Layout moderno e responsivo</span></div>
+          <div class="trust-item"><span class="ti-ico">⚡</span><span>Entrega organizada (GitHub)</span></div>
+          <div class="trust-item"><span class="ti-ico">📈</span><span>Estrutura para conversão</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-media reveal" aria-label="Foto e destaque">
+        <div class="photo-card">
+          <div class="photo-wrapper">
+            <img src="./profile.png" alt="Foto de João" />
+          </div>
+
+          <div class="photo-meta">
+            <div class="pm-title">
+              <strong>João</strong>
+              <span class="badge">DEV</span>
+            </div>
+            <p class="muted small">
+              Front-end • Automação • BI<br/>
+              Interface limpa, rápida e com presença.
+            </p>
+          </div>
+        </div>
+
+        <div class="mini-stats">
+          <div class="mini-stat">
+            <strong>+30</strong>
+            <span class="muted">modelos de site</span>
+          </div>
+          <div class="mini-stat">
+            <strong>UI</strong>
+            <span class="muted">acabamento premium</span>
+          </div>
+          <div class="mini-stat">
+            <strong>SEO</strong>
+            <span class="muted">base preparada</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+ 
+  <!-- ABOUT (DETALHADO) -->
+<section class="section" id="sobre">
+  <div class="container">
+    <div class="section-head">
+      <h2>Sobre mim</h2>
+      <p class="muted">
+        Sou desenvolvedor com experiência em criação de interfaces web, análise de dados e automação de processos.
+        Atuo no desenvolvimento de soluções que unem tecnologia, organização da informação e visão estratégica.
+      </p>
+      <p class="muted">
+        Possuo vivência em ambientes institucionais e jurídicos, com conhecimento em análise licitatória,
+        fases administrativas e fluxos documentais, ampliando minha capacidade de criar sistemas alinhados
+        a normas e processos reais.
+      </p>
+      <p class="muted">
+        Tenho formação em tecnologia e sigo em constante evolução, buscando unir desenvolvimento web,
+        dados e eficiência operacional.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ÁREAS DE ATUAÇÃO -->
+<section class="section section-alt" id="atuacao">
+  <div class="container">
+    <div class="section-head">
+      <h2>Áreas de Atuação</h2>
+    </div>
+
+    <div class="grid-tiles">
+      <div class="tile">Desenvolvimento Web Front-End</div>
+      <div class="tile">Análise de Dados e BI</div>
+      <div class="tile">Automação de Processos</div>
+      <div class="tile">Sistemas para Apoio à Decisão</div>
+      <div class="tile">Análise de Fluxos Jurídicos e Administrativos</div>
+      <div class="tile">Integração entre Tecnologia e Gestão</div>
+    </div>
+  </div>
+</section>
+
+<!-- TECNOLOGIAS -->
+<section class="section" id="tecnologias">
+  <div class="container">
+    <div class="section-head">
+      <h2>Tecnologias & Linguagens</h2>
+    </div>
+
+    <div class="tech-grid">
+      <article class="tech-card">
+        <h3>HTML</h3>
+        <p class="muted">Estruturação semântica com foco em organização e acessibilidade.</p>
+      </article>
+
+      <article class="tech-card">
+        <h3>CSS</h3>
+        <p class="muted">Layouts modernos, responsivos e design limpo focado em UX.</p>
+      </article>
+
+      <article class="tech-card">
+        <h3>JavaScript</h3>
+        <p class="muted">Interatividade, DOM, lógica de interface e automações.</p>
+      </article>
+
+      <article class="tech-card">
+        <h3>Python</h3>
+        <p class="muted">Automação de processos, scripts e apoio à análise de dados.</p>
+      </article>
+
+      <article class="tech-card">
+        <h3>BI & Dados</h3>
+        <p class="muted">Organização e análise para apoiar decisão e performance.</p>
+      </article>
+
+      <article class="tech-card">
+        <h3>Git & GitHub</h3>
+        <p class="muted">Versionamento, colaboração e publicação de projetos.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FORMAÇÃO -->
+<section class="section section-alt" id="formacao">
+  <div class="container">
+    <div class="section-head">
+      <h2>Formação Acadêmica</h2>
+    </div>
+
+    <div class="formation">
+      <div class="formation-item">
+        <strong>Análise e Desenvolvimento de Sistemas</strong>
+        <span class="muted">CESAR School</span>
+      </div>
+
+      <div class="formation-item">
+        <strong>Ciência da Computação</strong>
+        <span class="muted">UNIFBV Wyden</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <!-- SERVICES -->
+  <section class="section section-alt" id="servicos">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Serviços</h2>
+        <p class="muted">Escolha o que você precisa agora — dá para evoluir depois.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="sc-top">
+            <span class="sc-ico">🧩</span>
+            <h3>Landing Page</h3>
+          </div>
+          <p class="muted">Página focada em conversão: WhatsApp, formulário, prova social e CTA.</p>
+          <ul class="checklist">
+            <li>Mobile first</li>
+            <li>Seções estratégicas</li>
+            <li>Botões e tracking prontos</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="sc-top">
+            <span class="sc-ico">🏢</span>
+            <h3>Site Institucional</h3>
+          </div>
+          <p class="muted">Seu negócio com cara de marca forte: páginas, serviços e contato.</p>
+          <ul class="checklist">
+            <li>Menu e navegação</li>
+            <li>Cards/áreas bem definidas</li>
+            <li>SEO básico</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="sc-top">
+            <span class="sc-ico">⚙️</span>
+            <h3>Automação</h3>
+          </div>
+          <p class="muted">Scripts para economizar tempo: relatórios, planilhas, rotinas e integrações.</p>
+          <ul class="checklist">
+            <li>Python / dados</li>
+            <li>Processos repetitivos</li>
+            <li>Entrega documentada</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- PROJECTS -->
+<section class="section" id="projetos">
+  <div class="container">
+    <div class="section-head center">
+      <h2>Projetos</h2>
+      <p class="muted">Troque os links pelos seus repositórios / demos.</p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-thumb has-img">
+          <img src="./restaurante.png" alt="Preview do projeto Restaurante Aurora" loading="lazy">
+          <div class="thumb-overlay">
+            <span class="thumb-tag">Template</span>
+            <span class="thumb-sub muted">Restaurante</span>
+          </div>
+        </div>
+        <h3>Restaurante Aurora</h3>
+        <p class="muted">Landing com menu, reservas e seção de destaque.</p>
+        <div class="project-actions">
+          <a class="btn btn-outline full" href="#" target="_blank" rel="noreferrer">Abrir</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb has-img">
+          <img src="./AMIZ.png" alt="Preview do projeto Loja AMIZ" loading="lazy">
+          <div class="thumb-overlay">
+            <span class="thumb-tag">E-commerce</span>
+            <span class="thumb-sub muted">Boutique</span>
+          </div>
+        </div>
+        <h3>Loja AMIZ</h3>
+        <p class="muted">Vitrine com categorias, ofertas e WhatsApp.</p>
+        <div class="project-actions">
+          <a class="btn btn-outline full" href="#" target="_blank" rel="noreferrer">Abrir</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb has-img">
+          <img src="./adv.png" alt="Preview do projeto Escritório" loading="lazy">
+          <div class="thumb-overlay">
+            <span class="thumb-tag">Institucional</span>
+            <span class="thumb-sub muted">Serviços</span>
+          </div>
+        </div>
+        <h3>Escritório</h3>
+        <p class="muted">Página com busca/áreas e CTA para atendimento.</p>
+        <div class="project-actions">
+          <a class="btn btn-outline full" href="#" target="_blank" rel="noreferrer">Abrir</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PROCESS -->
+  <section class="section section-alt" id="processo">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Processo</h2>
+        <p class="muted">Simples, rápido e sem confusão.</p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-n">1</span>
+          <h3>Briefing</h3>
+          <p class="muted">Você manda referências e objetivo (vender, captar lead, apresentar).</p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-n">2</span>
+          <h3>Layout</h3>
+          <p class="muted">Eu organizo hierarquia, cards, CTAs e versão mobile primeiro.</p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-n">3</span>
+          <h3>Entrega</h3>
+          <p class="muted">Arquivos organizados + ajustes finais + publicação (se quiser).</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Depoimentos</h2>
+        <p class="muted">Um slider simples (melhor que ficar parado).</p>
+      </div>
+
+      <div class="testi">
+        <div class="testi-controls" aria-label="Controles de depoimentos">
+          <button class="icon-btn" id="prevTesti" aria-label="Anterior">‹</button>
+          <button class="icon-btn" id="nextTesti" aria-label="Próximo">›</button>
+        </div>
+
+        <div class="testi-slider" id="testiSlider">
+          <article class="testi-card is-active">
+            <p>“Ficou com cara de marca grande. No celular ficou perfeito.”</p>
+            <span class="muted">Cliente • Landing Page</span>
+          </article>
+
+          <article class="testi-card">
+            <p>“A página carrega rápido e o WhatsApp converteu muito melhor.”</p>
+            <span class="muted">Cliente • Institucional</span>
+          </article>
+
+          <article class="testi-card">
+            <p>“Organizou tudo e ainda deixou pronto para crescer depois.”</p>
+            <span class="muted">Cliente • Projeto completo</span>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contato">
+    <div class="container contact-grid">
+      <div class="contact-left">
+        <h2>Contato</h2>
+        <p class="muted">
+          Me diga o que você precisa e eu te retorno com uma proposta clara.
+        </p>
+
+        <div class="contact-cards">
+          <a class="contact-card" target="_blank" rel="noreferrer"
+             href="https://wa.me/558199699995?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20um%20site.">
+            <div class="cc-ico">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p class="muted small">Resposta rápida</p>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:jr.morato.9@gmail.com">
+            <div class="cc-ico">✉️</div>
+            <div>
+              <strong>E-mail</strong>
+              <p class="muted small">Propostas e detalhes</p>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://github.com/jaozinnm">
+            <div class="cc-ico">😾</div>
+            <div>
+              <strong>Github</strong>
+              <p class="muted small">Repositorios e Projetos</p>
+            </div>
+          </a>
+        </div>
+
+        <p class="muted small">
+          Dica: envie 1 referência + objetivo + prazo.
+        </p>
+      </div>
+
+      <form class="form card" id="form">
+        <div class="form-row">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome" required />
+          </label>
+
+          <label>
+            WhatsApp
+            <input type="text" name="whats" placeholder="(81) 9xxxx-xxxx" required />
+          </label>
+        </div>
+
+        <label>
+          O que você precisa?
+          <select name="tipo" required>
+            <option value="" selected disabled>Selecione</option>
+            <option>Landing Page</option>
+            <option>Site Institucional</option>
+            <option>Loja / Catálogo</option>
+            <option>Automação</option>
+            <option>Outro</option>
+          </select>
+        </label>
+
+        <label>
+          Mensagem
+          <textarea name="msg" rows="5" placeholder="Explique em poucas linhas (objetivo + prazo + referência)"></textarea>
+        </label>
+
+        <button class="btn btn-primary full" type="submit">Enviar</button>
+        <p class="muted small">* Formulário demo (sem back-end). Posso integrar depois.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="muted">© <span id="year"></span> • Code_Consult</span>
+      <a class="muted" href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
